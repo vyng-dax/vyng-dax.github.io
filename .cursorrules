@@ -1,0 +1,10 @@
+# Tech Stack
+
+- Frontend: Next.js 14 (App Router), Tailwind CSS, TypeScript.
+- Backend: FastAPI, Python 3.11, Pydantic v2.
+
+# Coding Rules
+
+1. Luôn sử dụng TypeScript strict mode, tránh dùng kiểu `any`.
+2. Khi viết API route trong Next.js, luôn bọc trong try-catch và trả về chuẩn JSON response.
+3. Không viết code dài quá 150 dòng cho một file component; hãy tách nhỏ thành các sub-components.
