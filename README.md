@@ -1,6 +1,8 @@
 # Data Analyst Portfolio Website
 
-A responsive pastel-pink portfolio template built with plain HTML and CSS. No framework or build step is required.
+A responsive pastel-pink portfolio site built with plain HTML and CSS. No framework or build step is required.
+
+The homepage (`index.html`) is a general portfolio hub. Event planning work lives on `events.html`.
 
 ## Preview locally on a Mac
 1. Unzip the downloaded folder.
