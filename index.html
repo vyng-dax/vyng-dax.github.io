@@ -3,30 +3,31 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio of event planning and data analysis work by Vy Nguyen.">
-  <title>VY NGUYEN | Portfolio</title>
+  <meta name="description" content="Portfolio of marketing and data analysis work by Vy Nguyen.">
+  <title>VY NGUYEN | Marketing &amp; Data Analyst</title>
+  <link rel="icon" href="data:,">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="home">
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="#home" aria-label="Home"><span class="brand-mark">✳</span> VY NGUYEN</a>
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
     <nav class="nav" aria-label="Main navigation">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
-      <a href="events.html">Event Planning</a>
       <a href="#projects">Projects</a>
-      <a href="#resume">Resume</a>
+      <a href="events.html">Event Planning</a>
       <a class="nav-contact" href="#contact">Contact ↗</a>
     </nav>
   </header>
 
-  <main>
+  <main id="main">
     <section class="hero section" id="home">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="eyebrow-dot"></span> ASPIRING DATA ANALYST</p>
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Marketing &amp; Data Analyst</p>
         <h1>Turning data into <span>clear decisions.</span></h1>
-        <p class="hero-description">Hi, I'm <strong>VY NGUYEN</strong> — an aspiring Data Analyst who enjoys finding patterns, solving business problems, and turning numbers into useful stories.</p>
+        <p class="hero-description">Hi, I'm <strong>VY NGUYEN</strong> — a Marketing &amp; Data Analyst who enjoys finding patterns, solving business problems, and turning numbers into useful stories.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#projects">Explore my projects <span>↓</span></a>
           <a class="text-link" href="events.html">Event planning work ↗</a>
@@ -34,16 +35,16 @@
         </div>
         <div class="hero-note"><span class="sparkle">✦</span> Curious mind. Thoughtful analysis. Practical insights.</div>
       </div>
-      <div class="hero-art" aria-label="Decorative data illustration">
+      <div class="hero-art" aria-hidden="true">
         <div class="art-orbit orbit-one"></div>
         <div class="art-orbit orbit-two"></div>
         <div class="art-card">
-          <div class="art-card-top"><span>INSIGHT SNAPSHOT</span><span class="live-dot"></span></div>
-          <div class="mini-kpi"><span>Revenue trend</span><strong>↗</strong></div>
-          <div class="chart-bars" aria-hidden="true">
-            <i style="height:34%"></i><i style="height:49%"></i><i style="height:43%"></i><i style="height:67%"></i><i style="height:58%"></i><i style="height:82%"></i><i style="height:100%"></i>
-          </div>
-          <div class="chart-labels"><span>JAN</span><span>MAR</span><span>MAY</span><span>JUL</span></div>
+          <div class="art-card-top"><span>Work snapshot</span><span class="live-dot"></span></div>
+          <div class="mini-kpi"><span>Selected projects</span><strong>2</strong></div>
+          <ul class="snapshot-list">
+            <li>KOL/KOC cost audit <span>SQL · Sheets</span></li>
+            <li>Campaign performance <span>SQL</span></li>
+          </ul>
           <div class="art-footer"><span class="tiny-icon">✦</span> Patterns become possibilities.</div>
         </div>
         <div class="floating-note note-top">data → insight</div>
@@ -52,18 +53,23 @@
       </div>
     </section>
 
-    <section class="trust-strip">
-      <span>MY TOOLKIT</span><b>Excel</b><i></i><b>SQL</b><i></i><b>Google Sheets</b>
+    <section class="trust-strip" aria-label="Toolkit">
+      <span>MY TOOLKIT</span>
+      <b>Excel</b><i></i>
+      <b>Google Sheets</b><i></i>
+      <b>SQL</b><i></i>
+      <b>Power BI</b><i></i>
+      <b>Tableau</b>
     </section>
 
     <section class="section content-section" id="about">
       <div class="section-heading">
-        <p class="eyebrow">01 / A LITTLE ABOUT ME</p>
+        <p class="eyebrow">01 / A little about me</p>
         <h2>Good analysis starts<br>with a <span>good question.</span></h2>
       </div>
       <div class="about-content">
-        <p>I'm building my skills in data analysis and working toward a career where I can help teams make better-informed decisions. I like breaking complex questions into manageable steps, checking the quality of the data, and explaining what the results mean in plain language.</p>
-        <p>This portfolio documents my learning through practical projects. Each project includes the business question, the approach, key findings, and recommendations. As I grow, I'll add more work in SQL, spreadsheets, and dashboards.</p>
+        <p>I studied a Bachelor of Commerce in Finance &amp; Marketing at Curtin University, and previously worked as a marketing analyst. I'm building a body of work at the intersection of marketing and data — helping teams see where spend goes, what a campaign delivered, and what to do next.</p>
+        <p>I like breaking complex questions into manageable steps, checking the quality of the data, and explaining what the results mean in plain language. Each project here includes the approach, the key numbers, and what they show.</p>
         <div class="about-tags"><span>Detail-oriented</span><span>Curious</span><span>Business-focused</span></div>
       </div>
     </section>
@@ -71,108 +77,178 @@
     <section class="skills-section" id="skills">
       <div class="section content-section">
         <div class="section-heading">
-          <p class="eyebrow">02 / MY TOOLKIT</p>
-          <h2>Skills I'm <span>building.</span></h2>
-          <p class="section-intro">A growing set of tools for exploring data, finding patterns, and communicating results.</p>
+          <p class="eyebrow">02 / My toolkit</p>
+          <h2>Skills I use to <span>get to the answer.</span></h2>
+          <p class="section-intro">Tools and methods I use to clean data, find patterns, and communicate results clearly.</p>
         </div>
-        <div class="skill-grid">   <article class="skill-card">     <div class="skill-icon">▦</div>     <h3>Excel</h3>     <p>Basic formulas, sorting, filtering, and data organization</p>     <div class="skill-status"><span></span> Learning & practicing</div>   </article>    <article class="skill-card">     <div class="skill-icon">⌘</div>     <h3>SQL</h3>     <p>Learning basic queries and data filtering</p>     <div class="skill-status"><span></span> Learning & practicing</div>   </article>    <article class="skill-card">     <div class="skill-icon">▤</div>     <h3>Google Sheets</h3>     <p>Basic formulas, sorting, filtering, and organizing data</p>     <div class="skill-status"><span></span> Learning & practicing</div>   </article> </div>
-          <article class="skill-card"><div class="skill-icon">▦</div><h3>Spreadsheets</h3><p>Excel / Google Sheets</p><div class="skill-status"><span></span> Learning & practicing</div></article>
-          <article class="skill-card"><div class="skill-icon">⌘</div><h3>SQL</h3><p>Filtering, aggregations, joins</p><div class="skill-status"><span></span> Learning & practicing</div></article>
-          <article class="skill-card"><div class="skill-icon">▥</div><h3>Visualization</h3><p>Charts, dashboards, storytelling</p><div class="skill-status"><span></span> Learning & practicing</div></article>
-          <article class="skill-card"><div class="skill-icon">◉</div><h3>Analysis</h3><p>Data quality, trends, insights</p><div class="skill-status"><span></span> Learning & practicing</div></article>
-        </div>
-        <p class="small-note">Tip: Update these labels as your skills progress. Only list tools and techniques you can confidently discuss in an interview.</p>
-      </div>
-    </section>
 
-
-    <section class="section content-section" id="event-planning">
-      <div class="section-heading project-heading">
-        <div>
-          <p class="eyebrow">EVENT PLANNING</p>
-          <h2>Events for <span>Classic Fine Foods.</span></h2>
+        <div class="skill-group">
+          <h3 class="skill-group-label">Tools</h3>
+          <div class="skill-grid">
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">▦</div>
+              <h3>Excel</h3>
+              <p>Formulas, sorting, filtering, and organizing data.</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">▤</div>
+              <h3>Google Sheets</h3>
+              <p>Spreadsheet analysis and dashboard work.</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">⌘</div>
+              <h3>SQL</h3>
+              <p>Queries, filtering, aggregations, and joins.</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">▣</div>
+              <h3>Power BI</h3>
+              <p>Dashboards and data visualization.</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">◉</div>
+              <h3>Tableau</h3>
+              <p>Dashboards and data visualization.</p>
+            </article>
+          </div>
         </div>
-        <p class="section-intro">I am an in-house event planner at Classic Fine Foods, where I plan events for our own brand portfolio.</p>
-      </div>
-      <div class="workstream-wrap">
-        <article class="project-card project-featured">
-          <div class="project-visual visual-events">
-            <img src="assets/events/event1-hero.svg" alt="Classic Fine Foods booth with the Enhance your Moments backdrop at Vietnam Food &amp; Beverage Conference 2022">
+
+        <div class="skill-group">
+          <h3 class="skill-group-label">Analysis</h3>
+          <div class="skill-grid methods">
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">⌕</div>
+              <h3>Root-cause analysis</h3>
+              <p>Tracing a result back to what drove it.</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">✦</div>
+              <h3>Data cleaning</h3>
+              <p>Checking quality and getting data ready to use.</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">▥</div>
+              <h3>Dashboards &amp; visualization</h3>
+              <p>Making metrics and trends easy to read.</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon" aria-hidden="true">◎</div>
+              <h3>Marketing cost analysis</h3>
+              <p>Seeing where spend goes and what was declined.</p>
+            </article>
           </div>
-          <div class="project-info">
-            <div class="project-meta"><span>CLASSIC FINE FOODS</span><span>4 EVENTS</span></div>
-            <h3>Event Planner Portfolio</h3>
-            <p>Four brand activations: a premium beverage booth at Vietnam Food &amp; Beverage Conference 2022 (18 February, Mai House Saigon Hotel); Poppin' Corks Wine Fest at Wink Hotel Saigon Centre (26 February 2022); The Perfect Mix by Monin at InterContinental Saigon (26 May 2022); and a La Maison du Fromage cheese tasting.</p>
-            <div class="tag-row"><span>Booth activation</span><span>Brand sampling</span><span>Vendor coordination</span></div>
-            <a class="project-link" href="events.html">View event portfolio ↗</a>
-            <a class="project-link" href="events.html#collateral">Design &amp; print collateral ↗</a>
-          </div>
-        </article>
+        </div>
       </div>
     </section>
 
     <section class="section content-section" id="projects">
       <div class="section-heading project-heading">
-        <div><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects with <span>purpose.</span></h2></div>
-        <p class="section-intro">A few business questions, explored with data. Project details and links will be added as the work is completed.</p>
+        <div>
+          <p class="eyebrow">03 / Selected work</p>
+          <h2>Projects with <span>purpose.</span></h2>
+        </div>
+        <p class="section-intro">Two projects explored with data: a marketing cost audit and a campaign-performance analysis.</p>
       </div>
-      <div class="project-grid">
-        <article class="project-card project-featured">
-          <div class="project-visual visual-sales">
-            <div class="visual-top"><span>SALES OVERVIEW</span><span>01</span></div>
-            <div class="visual-number">$— <small>Revenue</small></div>
-            <div class="visual-chart"><i style="height:28%"></i><i style="height:42%"></i><i style="height:37%"></i><i style="height:61%"></i><i style="height:52%"></i><i style="height:76%"></i><i style="height:92%"></i><i style="height:100%"></i></div>
-            <div class="visual-caption">Replace with your real analysis</div>
-          </div>
-          <div class="project-info"><div class="project-meta"><span>SPREADSHEETS</span><span>PROJECT 01</span></div><h3><h3>Retail Sales Performance</h3></h3><p>Explore sales and profit by product, category, region, and time. Identify top performers and turn findings into practical recommendations.</p><div class="tag-row"><span>Data cleaning</span><span>Pivot tables</span><span>Charts</span></div><a class="project-link" href="#contact">Project write-up coming soon ↗</a></div>
-        </article>
+
+      <div class="project-stack">
         <article class="project-card">
-          <div class="project-visual visual-sql">
-            <div class="sql-window"><div class="window-dots">● ● ●</div><code><span>SELECT</span> category,<br>&nbsp; SUM(sales)<br><span>FROM</span> orders<br><span>GROUP BY</span> category;</code></div>
+          <div class="project-visual visual-audit">
+            <div class="visual-top"><span>Cost audit</span><span>01</span></div>
+            <div class="kpi-grid">
+              <div class="kpi-tile">
+                <span>Partnerships</span>
+                <strong>22</strong>
+                <em>Anonymized beauty brand data</em>
+              </div>
+              <div class="kpi-tile">
+                <span>Booked spend</span>
+                <strong>88,300,000 VND</strong>
+                <em>13 of 14 confirmed quotes</em>
+              </div>
+              <div class="kpi-tile">
+                <span>Rejected quote value</span>
+                <strong>182,500,000 VND</strong>
+                <em>5 of 8 declined rows</em>
+              </div>
+            </div>
           </div>
-          <div class="project-info"><div class="project-meta"><span>SQL</span><span>PROJECT 02</span></div><h3>Customer & Order Analysis</h3><p>Use SQL to explore purchase patterns, customer activity, and product performance.</p><div class="tag-row"><span>GROUP BY</span><span>JOIN</span><span>Aggregations</span></div><a class="project-link" href="#contact">Project write-up coming soon ↗</a></div>
+          <div class="project-info">
+            <div class="project-meta"><span>SQL + Google Sheets</span><span>Anonymized</span></div>
+            <h3>KOL/KOC Marketing Cost Audit (Anonymized)</h3>
+            <div class="project-block">
+              <h4>Business question</h4>
+              <p>Where does marketing influencer spend go, and how much quoted spend was declined?</p>
+            </div>
+            <div class="project-block">
+              <h4>Approach / tools</h4>
+              <p>SQL and a Google Sheets dashboard, using anonymized beauty brand data covering 22 partnerships.</p>
+            </div>
+            <div class="tag-row"><span>SQL</span><span>Google Sheets</span><span>Marketing cost analysis</span></div>
+          </div>
         </article>
+
         <article class="project-card">
-          <div class="project-visual visual-dashboard">
-            <div class="dash-panel"><div class="dash-line"></div><div class="dash-metrics"><span></span><span></span><span></span></div><div class="dash-graph"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+          <div class="project-visual visual-campaign">
+            <div class="visual-top"><span>Campaign performance</span><span>02</span></div>
+            <div class="visual-hero-number">
+              <strong>2,240</strong>
+              <span>Customers in dataset</span>
+              <em>Maven Analytics / iFood Marketing Campaign Results</em>
+            </div>
           </div>
-          <div class="project-info"><div class="project-meta"><span>DATA STORYTELLING</span><span>PROJECT 03</span></div><h3>Interactive Sales Dashboard</h3><p>Design a dashboard that makes key metrics and business trends easy to understand at a glance.</p><div class="tag-row"><span>KPIs</span><span>Visualization</span><span>Insights</span></div><a class="project-link" href="#contact">Project write-up coming soon ↗</a></div>
+          <div class="project-info">
+            <div class="project-meta"><span>SQL</span><span>Public dataset</span></div>
+            <h3>Marketing Campaign Performance (Public Dataset)</h3>
+            <div class="project-block">
+              <h4>Approach / tools</h4>
+              <p>SQL analysis of the public Maven Analytics / iFood Marketing Campaign Results dataset, covering 2,240 customers.</p>
+            </div>
+            <div class="tag-row"><span>SQL</span><span>Public dataset</span><span>Campaign performance</span></div>
+          </div>
         </article>
       </div>
-      <p class="small-note">These are project placeholders, not completed work. Replace the descriptions and visuals with your actual results before sharing this site with employers.</p>
     </section>
 
-    <section class="resume-section" id="resume">
-      <div class="section resume-inner">
-        <div><p class="eyebrow">04 / EXPERIENCE & LEARNING</p><h2>Building skills.<br><span>Creating momentum.</span></h2><p>My resume will include relevant experience, education, technical skills, and completed data projects.</p></div>
-        <div class="resume-card"><div class="resume-file">PDF</div><div><strong>VY NGUYEN — Resume</strong><p>Add your resume PDF to this website folder, then update the button link in index.html.</p><a class="button button-primary button-small" href="#contact">Resume coming soon ↗</a></div></div>
+    <section class="section content-section" id="event-planning">
+      <div class="section-heading project-heading">
+        <div>
+          <p class="eyebrow">Event planning</p>
+          <h2>Events for <span>Classic Fine Foods.</span></h2>
+        </div>
+        <p class="section-intro">I am an in-house event planner at Classic Fine Foods, where I plan events for our own brand portfolio.</p>
+      </div>
+      <div class="workstream-wrap">
+        <article class="project-card">
+          <div class="project-visual visual-events">
+            <img src="assets/events/event1-hero.svg" alt="Classic Fine Foods booth with the Enhance your Moments backdrop at Vietnam Food &amp; Beverage Conference 2022">
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>Classic Fine Foods</span><span>4 events</span></div>
+            <h3>Event Planner Portfolio</h3>
+            <p class="project-lead">Four brand activations: a premium beverage booth at Vietnam Food &amp; Beverage Conference 2022 (18 February, Mai House Saigon Hotel); Poppin' Corks Wine Fest at Wink Hotel Saigon Centre (26 February 2022); The Perfect Mix by Monin at InterContinental Saigon (26 May 2022); and a La Maison du Fromage cheese tasting.</p>
+            <div class="tag-row"><span>Booth activation</span><span>Brand sampling</span><span>Vendor coordination</span></div>
+            <a class="project-link" href="events.html">View event portfolio ↗</a>
+          </div>
+        </article>
       </div>
     </section>
 
     <section class="section contact-section" id="contact">
       <div class="contact-panel">
-        <p class="eyebrow">05 / SAY HELLO</p>
+        <p class="eyebrow">04 / Say hello</p>
         <h2>Have a question or an opportunity?</h2>
-        <p>I'm happy to connect with people working in data, learn from feedback, and discuss entry-level opportunities.</p>
-        <a class="button button-light" href="mailto:your.email@example.com">Email me ↗</a>
-        <div class="contact-links"><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+        <p>I'm happy to connect about Marketing Analyst and Data Analyst roles, and to talk through the work in this portfolio.</p>
+        <a class="button button-light" href="mailto:vynguyen.ivyng@gmail.com">Email me ↗</a>
+        <a class="contact-email" href="mailto:vynguyen.ivyng@gmail.com">vynguyen.ivyng@gmail.com</a>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">✳</span> VY NGUYEN</a><span>Made with curiosity and a little bit of data. © <span id="year"></span></span><a href="#home">Back to top ↑</a></footer>
-  <script>
-    const menuButton = document.querySelector('.menu-toggle');
-    const nav = document.querySelector('.nav');
-    menuButton.addEventListener('click', () => {
-      const open = nav.classList.toggle('nav-open');
-      menuButton.setAttribute('aria-expanded', String(open));
-    });
-    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
-      nav.classList.remove('nav-open');
-      menuButton.setAttribute('aria-expanded', 'false');
-    }));
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <footer class="site-footer">
+    <a class="brand" href="#home"><span class="brand-mark">✳</span> VY NGUYEN</a>
+    <span>Made with curiosity and a little bit of data. © <span id="year">2026</span></span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
