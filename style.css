@@ -1206,6 +1206,10 @@ body.home .project-link {
   margin-top: auto;
 }
 
+body.home .project-info > .project-link + .project-link {
+  margin-top: 0;
+}
+
 body.home .workstream-wrap {
   margin-top: 12px;
 }
