@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Social Media Office, a mini pixel-art office web app by Vy Nguyen for managing four social media bots.">
+  <title>VY NGUYEN | Social Media Office</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="smo">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Home"><span class="brand-mark">✳</span> VY NGUYEN</a>
+    <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html#about">About</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="events.html">Event Planning</a>
+      <a href="social-media-office.html" aria-current="page">Social Media Office</a>
+      <a class="nav-contact" href="#contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="section page-hero" id="intro">
+      <p class="eyebrow"><span class="eyebrow-dot"></span> Web app</p>
+      <h1>Social Media <span>Office.</span></h1>
+      <p class="hero-description">Social Media Office (Văn phòng Social Media) is a mini pixel-art office web app where I manage four social media bots: fendi (research), dior (content &amp; strategy), prada (photo), and gucci (Threads). I assign tasks, approve posts, and review weekly metrics.</p>
+      <div class="hero-note"><span class="sparkle">✦</span> All data in the app is fake sample data.</div>
+    </section>
+
+    <section class="smo-band" id="overview">
+      <article class="section event-case">
+        <div class="section-heading">
+          <p class="eyebrow">Overview</p>
+          <h2>Four bots, one <span>pixel office.</span></h2>
+        </div>
+
+        <figure class="event-hero-shot smo-shot">
+          <img src="assets/social-media-office/office.svg" alt="The Social Media Office web app, showing a pixel-art office with four bot desks and a review desk, plus tabs for the office, pending review, and weekly metrics">
+          <figcaption>The office view: desks for fendi, dior, prada, and gucci, plus a review desk. Tabs along the top open the office, pending review, and weekly metrics. A sample-data badge is visible in the header.</figcaption>
+        </figure>
+
+        <div class="smo-bots" aria-label="The four social media bots">
+          <article>
+            <span class="glance-num">Bot</span>
+            <strong>fendi</strong>
+            <p>Research</p>
+          </article>
+          <article>
+            <span class="glance-num">Bot</span>
+            <strong>dior</strong>
+            <p>Content &amp; strategy</p>
+          </article>
+          <article>
+            <span class="glance-num">Bot</span>
+            <strong>prada</strong>
+            <p>Photo</p>
+          </article>
+          <article>
+            <span class="glance-num">Bot</span>
+            <strong>gucci</strong>
+            <p>Threads</p>
+          </article>
+        </div>
+
+        <dl class="event-facts">
+          <div><dt>What I do in the app</dt><dd>Assign tasks, approve posts, and review weekly metrics</dd></div>
+          <div><dt>Stack</dt><dd>FastAPI, SQLite, and vanilla HTML, CSS, and JavaScript</dd></div>
+          <div><dt>Pixel office</dt><dd>Drawn with Canvas 2D</dd></div>
+          <div><dt>Tests</dt><dd>44 pytest tests pass</dd></div>
+          <div><dt>Data</dt><dd>All data in the app is fake sample data</dd></div>
+        </dl>
+
+        <!-- Repository (private for now; add the public link here when ready):
+        <a class="project-link" href="https://github.com/vyng-dax/van-phong-social-media">View GitHub repository ↗</a>
+        -->
+
+        <div class="event-block">
+          <h3>Screenshots</h3>
+          <div class="event-gallery smo-gallery">
+            <figure class="wide">
+              <img src="assets/social-media-office/walk-to-desk.svg" alt="Animation of a bot character walking across the pixel office floor to the gucci desk after being assigned work">
+              <figcaption>A bot character walks back to the gucci desk after being assigned work. A task bubble appears at the desk as they sit down. (The app’s on-screen labels are in Vietnamese; all data shown is sample data.)</figcaption>
+            </figure>
+            <figure class="wide">
+              <img src="assets/social-media-office/panel-fendi.svg" alt="The fendi research bot panel open beside the pixel office, showing a current task, a queued task, and an assign-task form">
+              <figcaption>The fendi (research) panel open beside the office, with a current task, a queued item, and the form used to assign work.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-panel">
+        <p class="eyebrow">Say hello</p>
+        <h2>Have a question or an opportunity?</h2>
+        <p>I'm happy to connect about Marketing Analyst and Data Analyst roles, and to talk through the work in this portfolio.</p>
+        <a class="button button-light" href="mailto:vynguyen.ivyng@gmail.com">Email me ↗</a>
+        <a class="contact-email" href="mailto:vynguyen.ivyng@gmail.com">vynguyen.ivyng@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="index.html"><span class="brand-mark">✳</span> VY NGUYEN</a>
+    <span>Made with curiosity and a little bit of data. © <span id="year">2026</span></span>
+    <a href="#intro">Back to top ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
